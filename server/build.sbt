@@ -13,7 +13,6 @@ lazy val root = (project in file("."))
     scalaVersion := "2.13.13",
     maintainer := "uat-public-contact@google.com",
     libraryDependencies ++= Seq(
-      "org.apache.shiro" % "shiro-crypto-cipher" % "1.13.0",
       "ch.qos.logback" % "logback-classic" % "1.4.8"
     )
   )
