@@ -13,6 +13,6 @@ lazy val root = (project in file("."))
     scalaVersion := "2.13.13",
     maintainer := "uat-public-contact@google.com",
     libraryDependencies ++= Seq(
-      "ch.qos.logback" % "logback-classic" % "1.4.8"
+      "ch.qos.logback" % "logback-classic" % "1.5.3"
     )
   )
